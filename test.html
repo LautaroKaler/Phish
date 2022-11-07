@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+ 
+<head>
+    <title>
+        TlushSachar
+    </title>
+</head>
+ 
+<body style="text-align: center;" onload="geek()" bgcolor=#111111>
+   
+    <p id="g" style="color:white" "font-size:72px"></p>
+ 
+ 
+ 
+    <script>
+        function geek() {
+           
+            var doc = prompt("Enter the password to open this PDF file.");
+           
+            if (doc != null) {
+                document.getElementById("g").innerHTML =
+                    "You has been a Victim of Phishing Attack " + doc;
+            }
+        }
+    </script>
+   
+</body>
+ 
+</html>
